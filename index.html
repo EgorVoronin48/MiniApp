@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Моя игра</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <style>
+        body { font-family: Arial; text-align: center; padding: 20px; }
+        button { padding: 10px 20px; font-size: 16px; }
+    </style>
 </head>
 <body>
-
+    <h1>Добро пожаловать! 👋</h1>
+    <p>Это мини-приложение для Telegram.</p>
+    <button onclick="Telegram.WebApp.sendData('Hello!')">Отправить данные боту</button>
 </body>
 </html>
